@@ -2,8 +2,11 @@
 This is broadcasting  notification using laravel and socket.io.
 
 # How to use it 
-- composer install or update
+- composer install 
 - npm install 
+- cp .env.example .env
+- php artisan key:generate
+
 
 # How to run noification:
 - php artisan server
